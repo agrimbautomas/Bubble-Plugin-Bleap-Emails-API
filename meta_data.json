@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "email",
+        "1": "technical"
+    },
+    "description": "Internal API for mailing in Bleap",
+    "image": "//s3.amazonaws.com/appforest_uf/f1653623339559x839594348090225000/bleap-logo-200.png",
+    "license": "private",
+    "name": "Bleap Emails API",
+    "plugin_instructions": "Internal API for mailing in Bleap"
+}

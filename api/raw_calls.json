@@ -1,0 +1,187 @@
+{
+    "calls": {
+        "AAD": {
+            "initialized": true,
+            "method": "post",
+            "name": "Welcome Email",
+            "params": {
+                "AAF": {
+                    "key": "email",
+                    "private": true,
+                    "value": ""
+                },
+                "AAG": {
+                    "key": "member_name",
+                    "private": true,
+                    "value": ""
+                },
+                "AAH": {
+                    "key": "member_email",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1653623310473x424364482226290700.plugin_api.AAD",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Welcome Email\",\"fields\":{\"_p_body.response\":{\"ret_value\":\"text\",\"caption\":\"body response\",\"sample_value\":\"success\",\"path\":[\"body\",\"response\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"response\\\\\\\":\\\\\\\"success\\\\\\\"}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[API_URL]/1/bleap/welcome-email",
+            "url_params": {
+                "AAE": {
+                    "key": "API_URL",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        },
+        "AAI": {
+            "initialized": true,
+            "method": "post",
+            "name": "Reset Password Email",
+            "params": {
+                "AAK": {
+                    "key": "email",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1653623310473x424364482226290700.plugin_api.AAI",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAI\":{\"caption\":\"Reset Password Email\",\"fields\":{\"_p_body.response\":{\"ret_value\":\"text\",\"caption\":\"body response\",\"sample_value\":\"success\",\"path\":[\"body\",\"response\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"response\\\\\\\":\\\\\\\"success\\\\\\\"}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[API_URL]/1/bleap/reset-password-email",
+            "url_params": {
+                "AAJ": {
+                    "key": "API_URL",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        },
+        "AAL": {
+            "initialized": true,
+            "method": "post",
+            "name": "Product Created Email",
+            "params": {
+                "AAN": {
+                    "key": "product_bubble_id",
+                    "private": true,
+                    "value": ""
+                },
+                "AAV": {
+                    "doc": "Url for the call to action on the email",
+                    "key": "cta_url",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 2,
+            "ret_value": "api.1653623310473x424364482226290700.plugin_api.AAL",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAL\":{\"caption\":\"Product Created Email\",\"fields\":{\"_p_body.response\":{\"ret_value\":\"text\",\"caption\":\"body response\",\"sample_value\":\"success\",\"path\":[\"body\",\"response\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"response\\\\\\\":\\\\\\\"success\\\\\\\"}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[API_URL]/1/bleap/product-created-email",
+            "url_params": {
+                "AAM": {
+                    "key": "API_URL",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        },
+        "AAO": {
+            "initialized": true,
+            "method": "post",
+            "name": "Features order email",
+            "params": {
+                "AAS": {
+                    "key": "email",
+                    "private": true,
+                    "value": ""
+                },
+                "AAT": {
+                    "doc": "Array of feature names",
+                    "key": "features",
+                    "optional": false,
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1653623310473x424364482226290700.plugin_api.AAO",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAO\":{\"caption\":\"API Call\",\"fields\":{\"_p_body.response\":{\"ret_value\":\"text\",\"caption\":\"body response\",\"sample_value\":\"success\",\"path\":[\"body\",\"response\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"response\\\\\\\":\\\\\\\"success\\\\\\\"}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[API_URL]/1/bleap/features-order-email",
+            "url_params": {
+                "AAQ": {
+                    "key": "API_URL",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        },
+        "AAP": {
+            "initialized": true,
+            "method": "post",
+            "name": "Sign up FUP",
+            "params": {
+                "AAU": {
+                    "doc": "Bleap Users email",
+                    "key": "email",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 4,
+            "ret_value": "api.1653623310473x424364482226290700.plugin_api.AAP",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAP\":{\"caption\":\"API Call\",\"fields\":{\"_p_body.response\":{\"ret_value\":\"text\",\"caption\":\"body response\",\"sample_value\":\"success\",\"path\":[\"body\",\"response\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"response\\\\\\\":\\\\\\\"success\\\\\\\"}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[API_URL]/1/bleap/sign-up-fup-email",
+            "url_params": {
+                "AAR": {
+                    "key": "API_URL",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        },
+        "AAW": {
+            "initialized": true,
+            "method": "post",
+            "name": "Subscription success",
+            "params": {
+                "AAY": {
+                    "doc": "Bleap user email",
+                    "key": "email",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 5,
+            "ret_value": "api.1653623310473x424364482226290700.plugin_api.AAW",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAW\":{\"caption\":\"Subscription succes\",\"fields\":{\"_p_body.response\":{\"ret_value\":\"text\",\"caption\":\"body response\",\"sample_value\":\"success\",\"path\":[\"body\",\"response\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"response\\\\\\\":\\\\\\\"success\\\\\\\"}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[API_URL]/1/bleap/subscription-success-email",
+            "url_params": {
+                "AAX": {
+                    "key": "API_URL",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        }
+    },
+    "human": "Bleap Emails API",
+    "shared_headers": {
+        "AAC": {
+            "key": "BleapToken",
+            "private": true,
+            "visibility": "secret"
+        }
+    }
+}
